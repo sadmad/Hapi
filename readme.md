@@ -25,3 +25,5 @@ This project aims to enhance privacy mechanisms in web applications by creating 
    ```bash
    git clone git@github.com:sadmad/Hapi.git
    cd Hapi
+   docker build -t hapi
+   docker run -d -p 8000:8000 --name hapi-container hapi
